@@ -1,0 +1,2274 @@
+{
+  "_formato": "GDD_INGELECT",
+  "_version": 2,
+  "_fecha": "2026-11-03",
+  "datos": {
+    "__proj": "ZeroDay: Ciberguardianes",
+    "g_que": {},
+    "g_ruta": {},
+    "g_herramienta": {},
+    "g_redaccion": {},
+    "g_errores": {},
+    "g_check": {
+      "rows": [
+        {
+          "item": "El objetivo general del videojuego y los objetivos específicos coinciden con los del anteproyecto",
+          "estado": "Pendiente",
+          "nota": ""
+        },
+        {
+          "item": "Cada objetivo específico tiene un entregable verificable",
+          "estado": "Pendiente",
+          "nota": ""
+        },
+        {
+          "item": "Todo aspecto de la tabla de habilidades tiene un responsable asignado",
+          "estado": "Pendiente",
+          "nota": ""
+        },
+        {
+          "item": "El público objetivo está definido y las decisiones de dificultad y arte son coherentes con él",
+          "estado": "Pendiente",
+          "nota": ""
+        },
+        {
+          "item": "Hay un único género marcado como principal",
+          "estado": "Pendiente",
+          "nota": ""
+        },
+        {
+          "item": "La clasificación por edades está declarada y el contenido sensible documentado",
+          "estado": "Pendiente",
+          "nota": ""
+        },
+        {
+          "item": "Todos los requisitos no funcionales tienen métrica y umbral verificables",
+          "estado": "Pendiente",
+          "nota": ""
+        },
+        {
+          "item": "Todos los requisitos funcionales tienen prioridad, dependencias y estado",
+          "estado": "Pendiente",
+          "nota": ""
+        },
+        {
+          "item": "Los elementos de gamificación marcados como «Sí» corresponden a requisitos funcionales existentes",
+          "estado": "Pendiente",
+          "nota": ""
+        },
+        {
+          "item": "Las diez heurísticas de usabilidad fueron revisadas y las que no cumplen tienen acción correctiva",
+          "estado": "Pendiente",
+          "nota": ""
+        },
+        {
+          "item": "Cada misión declara el aprendizaje asociado",
+          "estado": "Pendiente",
+          "nota": ""
+        },
+        {
+          "item": "Cada enemigo del árbol tiene comportamiento y condición de derrota",
+          "estado": "Pendiente",
+          "nota": ""
+        },
+        {
+          "item": "Todas las pantallas listadas tienen al menos una conexión de salida",
+          "estado": "Pendiente",
+          "nota": ""
+        },
+        {
+          "item": "El inventario de recursos gráficos y sonoros está completo y con responsables",
+          "estado": "Pendiente",
+          "nota": ""
+        },
+        {
+          "item": "Cada versión del plan de entregas produce algo jugable",
+          "estado": "Pendiente",
+          "nota": ""
+        },
+        {
+          "item": "Existe al menos un caso de prueba por cada requisito funcional de prioridad alta",
+          "estado": "Pendiente",
+          "nota": ""
+        },
+        {
+          "item": "Todo caso de prueba ejecutado tiene observaciones con el resultado obtenido y la versión probada",
+          "estado": "Pendiente",
+          "nota": ""
+        },
+        {
+          "item": "El glosario y las referencias están en APA 7",
+          "estado": "Pendiente",
+          "nota": ""
+        },
+        {
+          "item": "El JSON del proyecto fue guardado y el PDF del documento fue generado",
+          "estado": "Pendiente",
+          "nota": ""
+        }
+      ]
+    },
+    "g_faq": {},
+    "identificacion": {
+      "nombre": "ZeroDay: Ciberguardianes",
+      "subtitulo": "Videojuego educativo de escenarios de decisión para desarrollar competencias de ciberseguridad en adolescentes que ingresan a la universidad",
+      "version": "0.2.0",
+      "copyright": "© 2026 Universidad del Quindío — Programa de Ingeniería Electrónica",
+      "fecha": "22 de septiembre de 2026",
+      "area": "Ingeniería Electrónica (Sistemas Digitales)",
+      "modalidad": "Aplicación (proyecto de aula)",
+      "motor": "Unity",
+      "organizacion": "Universidad del Quindío — Armenia, Quindío",
+      "director": "Jorge Alejandro Aldana Gutiérrez",
+      "equipo": "Equipo de estudiantes de Ingeniería Electrónica"
+    },
+    "idea": {
+      "idea_principal": "Videojuego 3D de acción-aventura en tercera persona, con cámara sobre el hombro, en el que un estudiante primíparo de la Universidad del Quindío cae en una situación de phishing que desencadena la digitalización de su entorno. Acompañado por Byte y utilizando un Flipper modificado, el jugador explora escenarios, resuelve puzzles 2D de ciberseguridad y ciberacoso, ralentiza y desconecta enemigos digitalizados y decide si rescata a los NPC mientras avanza hacia la universidad para detener a La Amenaza Digital.",
+      "objetivo_general": "Desarrollar en Unity un videojuego educativo de acción-aventura que fortalezca conocimientos y prácticas de ciberseguridad y prevención del ciberacoso mediante exploración, puzzles, decisiones contextualizadas, rescate de personajes digitalizados y mecánicas inspiradas en redes como Ping, Ping Flood y ARP Spoofing dentro de un entorno completamente ficticio.",
+      "alcance": "Campaña lineal para PC con tutorial y niveles 1 a 4: residencia estudiantil, trayecto a la universidad, salas de informática y enfrentamiento final. Incluye movimiento en tercera persona, Flipper como herramienta principal, enemigos con tres niveles de digitalización, rescate opcional de NPC, puzzles 2D sobre phishing y ciberacoso, preguntas de conocimiento, persecución, guardado local y desenlace.",
+      "delimitacion": "No incluye multijugador, realidad aumentada o virtual, monetización, aplicación móvil en esta versión ni ejecución de ataques contra redes reales. Las técnicas de red se representan como mecánicas ficticias y simplificadas de juego. El sistema de denuncia de ciberacoso es educativo y no reemplaza canales institucionales reales.",
+      "justificacion": "Los adolescentes que ingresan a la universidad usan intensivamente entornos digitales pero rara vez reciben formación práctica en ciberseguridad. Están especialmente expuestos a phishing, malas prácticas de contraseñas y ciberacoso. Las campañas informativas tradicionales son poco efectivas porque no ejercitan la toma de decisiones; un videojuego de escenarios permite practicar decisiones seguras en un entorno controlado y con retroalimentación."
+    },
+    "objetivos_esp": {
+      "rows": [
+        {
+          "n": "1",
+          "objetivo": "Definir los requisitos funcionales y no funcionales del videojuego que permitan atender las necesidades de formación en ciberseguridad de los estudiantes nuevos.",
+          "entregable": "Documento GDD y matriz de requisitos",
+          "estado": "En progreso"
+        },
+        {
+          "n": "2",
+          "objetivo": "Diseñar los escenarios de decisión y las interfaces digitales del videojuego para los tres ejes: phishing, contraseñas y ciberacoso.",
+          "entregable": "Bocetos, plantillas de interfaz y diseño conceptual de pantallas",
+          "estado": "En progreso"
+        },
+        {
+          "n": "3",
+          "objetivo": "Desarrollar el entorno virtual y las funcionalidades clave del videojuego empleando el motor Unity.",
+          "entregable": "Ejecutable jugable v0.5.0",
+          "estado": "Pendiente"
+        },
+        {
+          "n": "4",
+          "objetivo": "Realizar pruebas de funcionamiento con usuarios reales, evaluando la experiencia de juego y las funcionalidades clave.",
+          "entregable": "Informe de pruebas beta y resultados SUS",
+          "estado": "Pendiente"
+        }
+      ]
+    },
+    "habilidades": {
+      "rows": [
+        {
+          "aspecto": "Diseño de personajes",
+          "responsable": "Integrante de arte",
+          "nivel": "Intermedio",
+          "herramienta": "equipo del diplomado",
+          "plan": ""
+        },
+        {
+          "aspecto": "Modelado de personajes (2D/3D)",
+          "responsable": "Integrante de arte",
+          "nivel": "Básico",
+          "herramienta": "Aseprite (sprites 2D)",
+          "plan": "Tutoriales de pixel art y sprite sheets"
+        },
+        {
+          "aspecto": "Texturizado de personajes",
+          "responsable": "Integrante de arte",
+          "nivel": "Básico",
+          "herramienta": "Aseprite",
+          "plan": ""
+        },
+        {
+          "aspecto": "Animación de personajes",
+          "responsable": "Integrante de arte",
+          "nivel": "Básico",
+          "herramienta": "Unity Animator",
+          "plan": "Curso de Animator y máquinas de estado"
+        },
+        {
+          "aspecto": "Diseño de escenarios",
+          "responsable": "Integrante de diseño",
+          "nivel": "Intermedio",
+          "herramienta": "Figma / Unity UI",
+          "plan": ""
+        },
+        {
+          "aspecto": "Modelado de escenarios",
+          "responsable": "Integrante de diseño",
+          "nivel": "Intermedio",
+          "herramienta": "Unity UI",
+          "plan": ""
+        },
+        {
+          "aspecto": "Programación",
+          "responsable": "Integrante de programación",
+          "nivel": "Avanzado",
+          "herramienta": "C# / Unity",
+          "plan": ""
+        },
+        {
+          "aspecto": "Diseño de interfaces (UI/UX)",
+          "responsable": "Integrante de diseño",
+          "nivel": "Intermedio",
+          "herramienta": "Figma / Unity UI",
+          "plan": ""
+        },
+        {
+          "aspecto": "Composición musical y sonido",
+          "responsable": "Por definir",
+          "nivel": "Sin experiencia",
+          "herramienta": "Audacity / bibliotecas libres",
+          "plan": "Usar audio con licencia CC y créditos"
+        },
+        {
+          "aspecto": "Diseño de la historia",
+          "responsable": "Equipo + director",
+          "nivel": "Intermedio",
+          "herramienta": "Documento GDD",
+          "plan": ""
+        },
+        {
+          "aspecto": "Gestión del proyecto",
+          "responsable": "Líder del equipo",
+          "nivel": "Intermedio",
+          "herramienta": "Tablero CDIO",
+          "plan": ""
+        },
+        {
+          "aspecto": "Pruebas y control de calidad",
+          "responsable": "Equipo completo",
+          "nivel": "Básico",
+          "herramienta": "Formularios y checklist",
+          "plan": "Protocolo de pruebas beta"
+        }
+      ]
+    },
+    "recursos": {
+      "rows": [
+        {
+          "recurso": "Unity Personal",
+          "tipo": "Software",
+          "detalle": "Motor de desarrollo, licencia gratuita para uso educativo",
+          "costo": "$0",
+          "responsable": "Equipo"
+        },
+        {
+          "recurso": "Equipo de cómputo 1",
+          "tipo": "Hardware",
+          "detalle": "Portátil de desarrollo",
+          "costo": "Por definir",
+          "responsable": "Integrante de programación"
+        },
+        {
+          "recurso": "Equipo de cómputo 2",
+          "tipo": "Hardware",
+          "detalle": "Portátil de desarrollo",
+          "costo": "Por definir",
+          "responsable": "Integrante de arte"
+        },
+        {
+          "recurso": "Assets de audio",
+          "tipo": "Licencia",
+          "detalle": "Biblioteca de música y efectos con licencia Creative Commons",
+          "costo": "$0",
+          "responsable": "Equipo"
+        },
+        {
+          "recurso": "Materiales e insumos",
+          "tipo": "Material",
+          "detalle": "Fotocopias, resmas, impresiones",
+          "costo": "Por definir",
+          "responsable": "Equipo"
+        }
+      ]
+    },
+    "publico_criterios": {
+      "rows": [
+        {
+          "criterio": "Edad",
+          "guia": "Rango de edad del público objetivo (ejemplo: 12-18 años)",
+          "seleccion": "16 a 24 años"
+        },
+        {
+          "criterio": "Género",
+          "guia": "Masculino, femenino, no binario o todos",
+          "seleccion": "Todos"
+        },
+        {
+          "criterio": "Intereses",
+          "guia": "Intereses específicos del público (deportes, fantasía, estrategia…)",
+          "seleccion": "Redes sociales, mensajería, tecnología, retos y decisiones, juegos casuales"
+        },
+        {
+          "criterio": "Plataforma preferida",
+          "guia": "Plataforma que usan mayormente (PC, consola, móvil)",
+          "seleccion": "Móvil y PC (salas de cómputo y portátiles personales)"
+        },
+        {
+          "criterio": "Tiempo disponible para jugar",
+          "guia": "Promedio de tiempo que dedican a jugar diaria o semanalmente",
+          "seleccion": "Sesiones cortas de 10 a 20 minutos, 2 a 4 horas por semana"
+        },
+        {
+          "criterio": "Nivel de experiencia en videojuegos",
+          "guia": "Principiante, intermedio, avanzado",
+          "seleccion": "Principiante a intermedio"
+        },
+        {
+          "criterio": "Preferencia de modo de juego",
+          "guia": "Individual, multijugador, cooperativo, competitivo",
+          "seleccion": "Individual"
+        },
+        {
+          "criterio": "Ubicación geográfica",
+          "guia": "País, región o mercado objetivo",
+          "seleccion": "Armenia, Quindío — Colombia (América del Sur) UQ programa de Ingeneiria Electrónica"
+        },
+        {
+          "criterio": "Presupuesto disponible",
+          "guia": "Dinero disponible para gastar en el videojuego",
+          "seleccion": "Ninguno: distribución gratuita institucional"
+        },
+        {
+          "criterio": "Contexto de uso",
+          "guia": "Dónde y cuándo juega (aula, casa, inducción, transporte)",
+          "seleccion": "Jornadas de inducción, cátedra de vida universitaria y talleres de competencias digitales, exposiciones donde se promueva el programa, etc, etc"
+        }
+      ]
+    },
+    "persona": {
+      "rows": [
+        {
+          "nombre": "Valentina, 17",
+          "perfil": "Primíparo de Ingeniería, muy activa en redes sociales",
+          "meta": "Sentirse segura en redes y no caer en engaños ni exponer sus datos",
+          "frustracion": "No distinguir cuándo un mensaje o enlace es peligroso",
+          "implicacion": "Escenarios cortos de redes y mensajería, con retroalimentación clara del porqué"
+        },
+        {
+          "nombre": "Andrés, 19",
+          "perfil": "Jugador habitual de PC, reutiliza la misma contraseña en todo",
+          "meta": "Aprender a manejar sus contraseñas sin que le resulte tedioso",
+          "frustracion": "Que le hablen de seguridad con lenguaje técnico y aburrido",
+          "implicacion": "Reto de contraseñas con marcador y consecuencias visibles, tono ágil"
+        },
+        {
+          "nombre": "Luz Dary, 22",
+          "perfil": "Estudiante que trabaja, ha vivido comentarios de acoso en línea",
+          "meta": "Saber cómo actuar y a quién acudir frente al ciberacoso",
+          "frustracion": "Sentir que no hay opciones seguras ni apoyo claro",
+          "implicacion": "Misión de ciberacoso con rutas de apoyo, bloqueo, reporte y no revictimización"
+        }
+      ]
+    },
+    "publico_region": {
+      "region": "América del Sur",
+      "pais": "Colombia — Armenia, Quindío",
+      "canal": "Descarga desde el portal institucional, salas de cómputo y acceso web en dispositivos personales, tenerlo en el repositorio de la dirección del programa en el repositario de el comité de autoevaluación del programa de Ingeneiría Electrónica",
+      "modelo": "Gratuito institucional"
+    },
+    "plataformas": {
+      "rows": [
+        {
+          "plataforma": "PC",
+          "desc": "Ejecutable de escritorio distribuido como archivo o desde un portal",
+          "ventajas": "Mayor potencia gráfica, teclado y mouse, sin restricciones de tienda ni certificación",
+          "desventajas": "El jugador debe descargar e instalar; hay que probar en varias configuraciones de hardware",
+          "usar": "Sí"
+        },
+        {
+          "plataforma": "Plataformas móviles",
+          "desc": "Android / iOS",
+          "ventajas": "El dispositivo está siempre con el jugador y permite usarlo en movimiento",
+          "desventajas": "Controles táctiles obligan a rediseñar la interfaz; publicación en tiendas con costos y trámites",
+          "usar": "Versión futura"
+        },
+        {
+          "plataforma": "Consola de juego",
+          "desc": "PlayStation, Xbox, Nintendo Switch",
+          "ventajas": "Experiencia estandarizada de mando y rendimiento predecible",
+          "desventajas": "Requiere licencias de desarrollador y certificación; rara vez viable en un proyecto de aula",
+          "usar": "No"
+        },
+        {
+          "plataforma": "Navegador web (WebGL)",
+          "desc": "Compilación WebGL embebida en una página web",
+          "ventajas": "Sin instalación, acceso inmediato desde un enlace, multiplataforma",
+          "desventajas": "Limitaciones de memoria y rendimiento; carga inicial lenta",
+          "usar": "Versión futura"
+        }
+      ]
+    },
+    "generos": {
+      "rows": [
+        {
+          "genero": "Estrategia en tiempo real (RTS)",
+          "desc": "Plantean al jugador un terreno donde desarrollar su ejército, muchas veces dependiendo de una economía sostenible, para luego enfrentarse a otros jugadores. Ejemplo: Age of Empires, StarCraft.",
+          "ventaja": "Alta rejugabilidad y pensamiento táctico",
+          "desventaja": "Curva de aprendizaje alta e IA costosa de programar",
+          "usar": "No"
+        },
+        {
+          "genero": "Estrategia por turnos (TBS)",
+          "desc": "Funcionan como el ajedrez: cada jugador tiene un tiempo para ejecutar sus jugadas y luego pasa el turno al siguiente. Ejemplo: saga Civilization, Heroes of Might and Magic.",
+          "ventaja": "No exige reflejos; permite pensar, ideal para público no jugador",
+          "desventaja": "Ritmo lento, poco atractivo en sesiones cortas",
+          "usar": "No"
+        },
+        {
+          "genero": "Disparos en primera persona (FPS)",
+          "desc": "Juegos basados en combate con armas a distancia; la cámara siempre está ubicada desde el punto de vista del personaje que controla el jugador. Ejemplo: Call of Duty, Battlefield.",
+          "ventaja": "Inmersión alta",
+          "desventaja": "El contenido violento puede ser incompatible con el propósito del proyecto",
+          "usar": "No"
+        },
+        {
+          "genero": "Disparos en tercera persona (TPS)",
+          "desc": "A diferencia del FPS, la cámara se ubica detrás del personaje y puede rotarse sin cambiar su orientación. Ejemplo: Grand Theft Auto, Gears of War.",
+          "ventaja": "Permite ver al personaje y su entorno",
+          "desventaja": "Mismo problema de temática violenta; cámara compleja",
+          "usar": "No"
+        },
+        {
+          "genero": "Lucha",
+          "desc": "Dos jugadores se enfrentan en un escenario pequeño en combate de artes marciales; rara vez hay más de cuatro jugadores activos al tiempo.",
+          "ventaja": "Sesiones muy cortas",
+          "desventaja": "No transmite contenido informativo",
+          "usar": "No"
+        },
+        {
+          "genero": "Beat ’em up / Shoot ’em up / Hack and slash",
+          "desc": "El usuario se enfrenta a una gran horda de enemigos recorriendo diversos escenarios, a puños, con armas de fuego o con armas blancas.",
+          "ventaja": "Fácil de programar y muy legible",
+          "desventaja": "Repetitivo si no hay variedad de enemigos",
+          "usar": "No"
+        },
+        {
+          "genero": "Simulador de carreras",
+          "desc": "Se centran en carreras con vehículos y pueden inclinarse a lo arcade o a lo realista. Ejemplo: Need for Speed, Forza, Gran Turismo.",
+          "ventaja": "Atractivo inmediato",
+          "desventaja": "Física costosa y sin relación con el objetivo educativo",
+          "usar": "No"
+        },
+        {
+          "genero": "Deportes",
+          "desc": "Simuladores de diversos deportes: fútbol, baloncesto, hockey, esquí, boxeo. Ejemplos: FIFA, Madden, Wii Fit.",
+          "ventaja": "Reglas ya conocidas por el jugador",
+          "desventaja": "Requiere licencias y animación avanzada",
+          "usar": "No"
+        },
+        {
+          "genero": "Juego de rol (RPG)",
+          "desc": "Incorporan el progreso del personaje, mejorando sus habilidades y equipamiento. Se distinguen por una fuerte narrativa y un mundo que el jugador explora.",
+          "ventaja": "La progresión y las misiones sostienen la motivación; encaja con aprendizaje por logros",
+          "desventaja": "Mucho contenido por producir (diálogos, ítems, balance)",
+          "usar": "Secundario"
+        },
+        {
+          "genero": "Gestión",
+          "desc": "Ponen al jugador en la piel de un gerente: un hospital, un aeropuerto, una ciudad o un país entero, con mecánicas de manejo económico y reportes estadísticos. Ejemplos: SimCity, Cities Skylines.",
+          "ventaja": "Enseña relaciones causa-efecto",
+          "desventaja": "Interfaz densa, mala para público principiante",
+          "usar": "No"
+        },
+        {
+          "genero": "Novela visual",
+          "desc": "Narran una historia principalmente a través del diálogo con otros personajes; según las decisiones del jugador se puede llegar a diversos finales. Ejemplo: Ace Attorney, Danganronpa.",
+          "ventaja": "Barata de producir y excelente para transmitir información",
+          "desventaja": "Poca interactividad si se usa sola",
+          "usar": "Secundario"
+        },
+        {
+          "genero": "Survival horror",
+          "desc": "Se centran en una atmósfera que busca asustar o aterrorizar al jugador, limitando los recursos para reforzar la sensación de supervivencia. Ejemplo: Resident Evil, Silent Hill.",
+          "ventaja": "Tensión y memorabilidad",
+          "desventaja": "Incompatible con públicos infantiles o con propósitos formativos",
+          "usar": "No"
+        },
+        {
+          "genero": "Plataformas / aventura de exploración",
+          "desc": "Centran la atención en la capacidad del jugador para superar obstáculos al correr, saltar, deslizarse o escalar, mientras supera enemigos y obtiene objetos. Ejemplos: Megaman, Castlevania, Metroid.",
+          "ventaja": "Controles simples y avance por descubrimiento del escenario",
+          "desventaja": "Exige buen diseño de niveles para no aburrir",
+          "usar": "Principal"
+        },
+        {
+          "genero": "Juego de cartas coleccionables (TCG)",
+          "desc": "Se basan en la capacidad del jugador para reunir tipos de cartas que usará en barajas para enfrentarse a otros jugadores. Ejemplos: Magic: The Gathering, Hearthstone.",
+          "ventaja": "Contenido escalable",
+          "desventaja": "Reglas complejas y balance difícil",
+          "usar": "No"
+        },
+        {
+          "genero": "Puzle / trivia",
+          "desc": "El jugador resuelve acertijos o preguntas de conocimiento para avanzar.",
+          "ventaja": "Forma natural de evaluar lo que el jugador aprendió",
+          "desventaja": "Se agota rápido sin banco de preguntas amplio",
+          "usar": "Secundario"
+        }
+      ]
+    },
+    "clasificacion": {
+      "rows": [
+        {
+          "criterio": "Clasificación PEGI",
+          "desc": "PEGI 3, PEGI 7, PEGI 12, PEGI 16, PEGI 18 (Europa)",
+          "seleccion": "PEGI 3"
+        },
+        {
+          "criterio": "Clasificación ESRB",
+          "desc": "EC, E, E10+, T, M, AO (América)",
+          "seleccion": "E (Everyone)"
+        },
+        {
+          "criterio": "Violencia",
+          "desc": "Actos agresivos o violentos representados en el juego",
+          "seleccion": "Ninguna. Los enemigos se «disipan» con respuestas correctas, no con agresión"
+        },
+        {
+          "criterio": "Lenguaje inapropiado",
+          "desc": "Presencia de palabras ofensivas o lenguaje fuerte",
+          "seleccion": "Ninguno"
+        },
+        {
+          "criterio": "Contenido de miedo",
+          "desc": "Elementos que puedan asustar a los jugadores, especialmente niños",
+          "seleccion": "Ninguno"
+        },
+        {
+          "criterio": "Referencias a drogas",
+          "desc": "Referencias o representaciones de consumo de drogas",
+          "seleccion": "Ninguna"
+        },
+        {
+          "criterio": "Contenido sexual",
+          "desc": "Imágenes o representaciones explícitas relacionadas con contenido sexual",
+          "seleccion": "Ninguno"
+        },
+        {
+          "criterio": "Apuestas",
+          "desc": "Juegos o actividades que simulan apuestas reales",
+          "seleccion": "Ninguna"
+        },
+        {
+          "criterio": "Compras dentro del juego",
+          "desc": "Indica si se pueden realizar compras con dinero real dentro del juego",
+          "seleccion": "No aplica: producto institucional gratuito"
+        },
+        {
+          "criterio": "Tratamiento de datos personales",
+          "desc": "Recolección de nombre, correo o identificación del jugador",
+          "seleccion": "No se recolectan datos personales; el progreso se guarda localmente"
+        }
+      ]
+    },
+    "idioma": {
+      "rows": [
+        {
+          "criterio": "Código ISO — el código estándar del idioma (por ejemplo «es» para español, «en» para inglés)",
+          "seleccion": "es"
+        },
+        {
+          "criterio": "Región específica — variantes del idioma (español latinoamericano, inglés británico)",
+          "seleccion": "Español latinoamericano (es-CO), con lenguaje juvenil cercano al público"
+        },
+        {
+          "criterio": "Formato de texto — orientación (de izquierda a derecha, de derecha a izquierda)",
+          "seleccion": "De izquierda a derecha (LTR)"
+        },
+        {
+          "criterio": "Idiomas adicionales previstos",
+          "seleccion": "Inglés (en) en versión futura, para estudiantes de intercambio"
+        },
+        {
+          "criterio": "Estrategia de textos",
+          "seleccion": "Todo el texto en archivos externos (JSON) para permitir traducción sin recompilar"
+        }
+      ]
+    },
+    "otros_criterios": {
+      "rows": [
+        {
+          "criterio": "Juego 2D o 3D",
+          "opciones": "2D, 3D",
+          "seleccionado": "3D — escenario explorable; los puzzles educativos se presentan en Canvas 2D."
+        },
+        {
+          "criterio": "Tipo de vista de la cámara",
+          "opciones": "Vista lateral, vista superior, primera persona, tercera persona",
+          "seleccionado": "Tercera persona sobre el hombro, controlada con el mouse."
+        },
+        {
+          "criterio": "Estilo del arte",
+          "opciones": "Pixel art, realista, cartoon, minimalista, estilo anime",
+          "seleccionado": "Cartoon con paleta de la identidad institucional"
+        },
+        {
+          "criterio": "Ambientes del videojuego",
+          "opciones": "Interior, exterior, mixto, fantástico, realista",
+          "seleccionado": "Entornos 3D mixtos: residencia estudiantil, trayecto urbano, universidad y salas de informática, con interfaces 2D para puzzles."
+        },
+        {
+          "criterio": "Música del videojuego",
+          "opciones": "Épica, ambiental, electrónica, clásica, personalizable",
+          "seleccionado": "Ambiental, con guiños a música andina colombiana"
+        },
+        {
+          "criterio": "Paleta de color",
+          "opciones": "Definida por el equipo",
+          "seleccionado": "Azul institucional, verde guadua y amarillo café; contraste mínimo 4.5:1 en textos"
+        },
+        {
+          "criterio": "Tipografía de interfaz",
+          "opciones": "Definida por el equipo",
+          "seleccionado": "Sans serif de alta legibilidad, tamaño mínimo 18 px (comic)"
+        }
+      ]
+    },
+    "rnf_tecnicos": {
+      "rows": [
+        {
+          "id": "RNF-01",
+          "nombre": "Rendimiento",
+          "desc": "El juego debe mantener una tasa de cuadros estable en el equipo de referencia del proyecto",
+          "metrica": "≥ 30 FPS sostenidos en equipo de referencia (i5, 8 GB RAM, gráficos integrados)",
+          "prioridad": "Alta"
+        },
+        {
+          "id": "RNF-02",
+          "nombre": "Tiempo de carga",
+          "desc": "El paso del menú a la primera escena jugable debe ser breve",
+          "metrica": "≤ 5 segundos",
+          "prioridad": "Media"
+        },
+        {
+          "id": "RNF-03",
+          "nombre": "Compatibilidad",
+          "desc": "Debe ejecutarse en los equipos previstos sin instalar dependencias adicionales",
+          "metrica": "Windows 10 y 11, 64 bits, sin permisos de administrador",
+          "prioridad": "Alta"
+        },
+        {
+          "id": "RNF-04",
+          "nombre": "Usabilidad",
+          "desc": "Un usuario sin experiencia previa en videojuegos debe completar la primera misión (Phishing) sin ayuda externa",
+          "metrica": "SUS ≥ 70 y tasa de decisiones seguras ≥ 80 % en la primera misión",
+          "prioridad": "Alta"
+        },
+        {
+          "id": "RNF-05",
+          "nombre": "Accesibilidad",
+          "desc": "Debe ser utilizable por personas con baja visión o daltonismo",
+          "metrica": "Subtítulos en todos los diálogos, contraste ≥ 4.5:1, ninguna información transmitida solo por color",
+          "prioridad": "Media"
+        },
+        {
+          "id": "RNF-06",
+          "nombre": "Portabilidad",
+          "desc": "Debe distribuirse como archivo ejecutable único o carpeta comprimida",
+          "metrica": "Tamaño del paquete ≤ 500 MB",
+          "prioridad": "Media"
+        },
+        {
+          "id": "RNF-07",
+          "nombre": "Mantenibilidad",
+          "desc": "Los escenarios y la retroalimentación deben poder actualizarse sin recompilar",
+          "metrica": "Textos y escenarios en archivos JSON externos",
+          "prioridad": "Media"
+        },
+        {
+          "id": "RNF-08",
+          "nombre": "Privacidad",
+          "desc": "El juego no debe recolectar datos personales del jugador",
+          "metrica": "Cero campos de identificación; progreso guardado solo en el equipo local",
+          "prioridad": "Alta"
+        },
+        {
+          "id": "RNF-09",
+          "nombre": "Fidelidad del contenido",
+          "desc": "La información que el juego presenta como verdadera debe corresponder con la realidad",
+          "metrica": "Validación con la fuente o la dependencia responsable antes de la versión 1.0",
+          "prioridad": "Alta"
+        }
+      ]
+    },
+    "rf_dificultad": {
+      "rows": [
+        {
+          "opcion": "Selección de nivel al iniciar",
+          "desc": "Al iniciar una nueva partida el jugador escoge el nivel de dificultad en el que desea jugar",
+          "seleccion": "No",
+          "nota": "Añade complejidad innecesaria para un público de inducción"
+        },
+        {
+          "opcion": "Nivel de dificultad único",
+          "desc": "No hay manera de cambiar la dificultad: el juego se presenta tal como es",
+          "seleccion": "Sí",
+          "nota": "Dificultad baja y constante; el reto está en explorar, no en fallar"
+        },
+        {
+          "opcion": "Dificultad extra desbloqueable",
+          "desc": "Se habilita un modo más exigente al terminar el juego",
+          "seleccion": "No",
+          "nota": "Posible en versión futura con retos de conocimiento"
+        },
+        {
+          "opcion": "Dificultad dinámica",
+          "desc": "El juego ajusta el reto según el desempeño del jugador",
+          "seleccion": "Sí",
+          "nota": "Si el jugador falla tres veces el mismo escenario, el mentor entrega una pista"
+        },
+        {
+          "opcion": "Penalización por error",
+          "desc": "Qué ocurre cuando el jugador falla: pérdida de vida, de tiempo, de puntos o nada",
+          "seleccion": "Sí",
+          "nota": "Solo pérdida de puntos de la misión; nunca reinicio del nivel"
+        }
+      ]
+    },
+    "rf_tabla": {
+      "rows": [
+        {
+          "id": "RF-01",
+          "nombre": "Mecánicas de juego",
+          "desc": "El jugador puede moverse, correr, saltar, interactuar, usar PING, apuntar, usar PING Flood y ejecutar ARP Spoofing sobre enemigos congelados a corta distancia.",
+          "prioridad": "Alta",
+          "dep": "Ninguna",
+          "estado": "En progreso"
+        },
+        {
+          "id": "RF-02",
+          "nombre": "Interfaz de usuario (UI)",
+          "desc": "Diseñar una interfaz intuitiva que incluya menús, indicador de nivel de guardián, panel de retroalimentación y bitácora, asegurando una experiencia fluida y coherente.",
+          "prioridad": "Alta",
+          "dep": "Ninguna",
+          "estado": "En progreso"
+        },
+        {
+          "id": "RF-03",
+          "nombre": "Inteligencia artificial",
+          "desc": "Implementar IA de persecución para los enemigos Legs, Headless y Full, con velocidad, resistencia al Ping Flood y tiempo de congelamiento configurables.",
+          "prioridad": "Media",
+          "dep": "RF-01",
+          "estado": "Pendiente"
+        },
+        {
+          "id": "RF-04",
+          "nombre": "Diseño de niveles",
+          "desc": "Implementar tutorial y niveles 1 a 4: residencia, trayecto a la universidad, salas de informática y jefe final, cada uno con objetivos, puzzles y condiciones de avance.",
+          "prioridad": "Alta",
+          "dep": "RF-01",
+          "estado": "En progreso"
+        },
+        {
+          "id": "RF-05",
+          "nombre": "Narrativa y personajes",
+          "desc": "Desarrollar la trama, el desarrollo de los personajes, sus motivaciones y cómo se integran en la jugabilidad para motivar al jugador a avanzar.",
+          "prioridad": "Media",
+          "dep": "Ninguna",
+          "estado": "En progreso"
+        },
+        {
+          "id": "RF-06",
+          "nombre": "Sonido y música",
+          "desc": "Especificar los efectos de sonido, la música de fondo y los elementos auditivos que crean una atmósfera inmersiva acorde con la temática del juego.",
+          "prioridad": "Media",
+          "dep": "Ninguna",
+          "estado": "Pendiente"
+        },
+        {
+          "id": "RF-07",
+          "nombre": "Plataformas y requisitos técnicos",
+          "desc": "Determinar las plataformas de publicación y los requisitos mínimos y recomendados de hardware y software.",
+          "prioridad": "Alta",
+          "dep": "Ninguna",
+          "estado": "En progreso"
+        },
+        {
+          "id": "RF-08",
+          "nombre": "Multijugador y conectividad",
+          "desc": "Implementar modos multijugador, tipo de conexión, gestión de servidores e interacción entre jugadores.",
+          "prioridad": "Baja",
+          "dep": "RF-01, RF-02",
+          "estado": "No aplica"
+        },
+        {
+          "id": "RF-09",
+          "nombre": "Accesibilidad",
+          "desc": "Incluir opciones para jugadores con discapacidad: subtítulos, modo para daltonismo, controles personalizables y tamaño de texto ajustable.",
+          "prioridad": "Media",
+          "dep": "RF-02",
+          "estado": "Pendiente"
+        },
+        {
+          "id": "RF-10",
+          "nombre": "Monetización",
+          "desc": "Definir compras dentro de la aplicación, publicidad u otros modelos de negocio.",
+          "prioridad": "Baja",
+          "dep": "Ninguna",
+          "estado": "No aplica"
+        },
+        {
+          "id": "RF-11",
+          "nombre": "Sistema de retos o de combate",
+          "desc": "Implementar el bucle detectar con PING → ralentizar/congelar con PING Flood → acercarse → ARP Spoofing → interactuar/rescatar, además de puzzles 2D educativos.",
+          "prioridad": "Alta",
+          "dep": "RF-01",
+          "estado": "Pendiente"
+        },
+        {
+          "id": "RF-12",
+          "nombre": "Guardado de partidas",
+          "desc": "Permitir al jugador guardar y cargar su progreso en cualquier momento, manteniendo el registro de las misiones completadas.",
+          "prioridad": "Alta",
+          "dep": "Ninguna",
+          "estado": "Pendiente"
+        },
+        {
+          "id": "RF-13",
+          "nombre": "Mapa u orientación en el mundo",
+          "desc": "Mostrar indicadores visuales de los puntos de interés y puzzles al utilizar PING, además de la barra de progreso de puzzles del nivel.",
+          "prioridad": "Alta",
+          "dep": "RF-02, RF-04",
+          "estado": "En progreso"
+        },
+        {
+          "id": "RF-14",
+          "nombre": "Personalización del avatar",
+          "desc": "Ofrecer opciones para que el jugador personalice la apariencia del personaje principal.",
+          "prioridad": "Baja",
+          "dep": "Ninguna",
+          "estado": "Pendiente"
+        },
+        {
+          "id": "RF-15",
+          "nombre": "Tutorial interactivo",
+          "desc": "Incluir un tutorial jugable en la habitación del protagonista que enseñe movimiento, interacción, PING, apuntado, Ping Flood y ARP Spoofing.",
+          "prioridad": "Alta",
+          "dep": "RF-01",
+          "estado": "Pendiente"
+        },
+        {
+          "id": "RF-16",
+          "nombre": "Sistema de logros",
+          "desc": "Recompensar al jugador con logros por completar tareas específicas o alcanzar hitos dentro del juego.",
+          "prioridad": "Media",
+          "dep": "RF-11",
+          "estado": "Pendiente"
+        }
+      ]
+    },
+    "economia": {
+      "rows": [
+        {
+          "moneda": "Puntos de conocimiento",
+          "tipo": "Progresión",
+          "obtiene": "Rescatar digitalizados y responder correctamente preguntas educativas",
+          "usa": "Representar aprendizaje acumulado y habilitar ventajas o ayudas posteriores",
+          "icono": "🧠"
+        },
+        {
+          "moneda": "Munición / carga de herramienta",
+          "tipo": "Recurso de combate",
+          "obtiene": "Resolver puzzles y superar retos educativos",
+          "usa": "Mantener disponible el uso de las herramientas del Flipper durante el nivel",
+          "icono": "⚡"
+        },
+        {
+          "moneda": "Tokens de cómputo",
+          "tipo": "Recurso narrativo",
+          "obtiene": "Recolectarlos durante el trayecto a la universidad",
+          "usa": "Aumentar la capacidad de Byte para intervenir contra el dron",
+          "icono": "🔷"
+        }
+      ]
+    },
+    "controles": {
+      "rows": [
+        {
+          "accion": "Moverse",
+          "pc": "WASD",
+          "alt": "—",
+          "desc": "Desplazar al personaje por el escenario."
+        },
+        {
+          "accion": "Correr",
+          "pc": "Shift",
+          "alt": "—",
+          "desc": "Aumentar temporalmente la velocidad de movimiento."
+        },
+        {
+          "accion": "Saltar",
+          "pc": "Espacio",
+          "alt": "—",
+          "desc": "Superar obstáculos del escenario."
+        },
+        {
+          "accion": "Interactuar",
+          "pc": "E",
+          "alt": "—",
+          "desc": "Interactuar con NPC, computadores, puzzles y objetos."
+        },
+        {
+          "accion": "PING",
+          "pc": "R",
+          "alt": "—",
+          "desc": "Detectar y resaltar dispositivos, enemigos, puzzles y elementos interactivos cercanos."
+        },
+        {
+          "accion": "Apuntar",
+          "pc": "Clic derecho",
+          "alt": "—",
+          "desc": "Reducir la apertura del cono de Ping Flood y aumentar su alcance."
+        },
+        {
+          "accion": "PING Flood",
+          "pc": "Clic izquierdo",
+          "alt": "—",
+          "desc": "Emitir un cono de interferencia para ralentizar y congelar temporalmente enemigos digitalizados."
+        },
+        {
+          "accion": "ARP Spoofing",
+          "pc": "E a ≤ 1 m de un enemigo congelado",
+          "alt": "—",
+          "desc": "Desconectar al enemigo de la red para poder interactuar con él y liberarlo."
+        },
+        {
+          "accion": "Pausa / menú",
+          "pc": "Esc",
+          "alt": "—",
+          "desc": "Pausar la partida y acceder a opciones."
+        }
+      ]
+    },
+    "mda": {
+      "mecanicas": "Exploración 3D en tercera persona; PING para detectar elementos; PING Flood en cono para ralentizar/congelar enemigos; ARP Spoofing a corta distancia para desconectarlos; interacción y rescate opcional de NPC; puzzles 2D en Canvas; preguntas de ciberseguridad y ciberacoso; persecución; recolección de recursos/tokens; progresión narrativa por niveles.",
+      "dinamicas": "El jugador alterna entre explorar, detectar amenazas, controlar la distancia frente a enemigos, resolver puzzles y decidir si invierte tiempo en rescatar personajes. Los rescates aportan puntos de conocimiento y permiten reforzar aprendizajes mediante preguntas y consejos.",
+      "esteticas": "Aventura, tensión moderada, descubrimiento, dominio progresivo de herramientas digitales y satisfacción por rescatar a otros sin recurrir a violencia realista.",
+      "experiencia": "El jugador debe sentir que progresa de estudiante vulnerable a usuario capaz de reconocer riesgos, verificar información, proteger sus cuentas y responder de forma segura al ciberacoso.",
+      "curva": "Tutorial: movimiento, interacción y PING. Nivel 1: enemigos Legs y puzzles básicos. Después aparecen Headless y Full, engaños más elaborados y decisiones con mayor coste de tiempo. El nivel final combina movilidad, enemigos, puzzles y desconexión de cuatro routers."
+    },
+    "elementos": {
+      "rows": [
+        {
+          "elemento": "Puntos",
+          "desc": "Retroalimentación numérica inmediata del desempeño",
+          "usar": "Sí",
+          "implementacion": "Puntos de guardián por decisión segura y misión completada"
+        },
+        {
+          "elemento": "Insignias / logros",
+          "desc": "Reconocimiento visible de hitos alcanzados",
+          "usar": "Sí",
+          "implementacion": "Insignia por cada misión (Phishing, Contraseñas, Ciberacoso)"
+        },
+        {
+          "elemento": "Niveles",
+          "desc": "Sensación de progreso a largo plazo",
+          "usar": "Sí",
+          "implementacion": "Rango de Ciberguardián que sube con los puntos de guardián"
+        },
+        {
+          "elemento": "Tabla de clasificación",
+          "desc": "Comparación social y competencia",
+          "usar": "Versión futura",
+          "implementacion": "Requiere conectividad; se evalúa para la jornada de inducción"
+        },
+        {
+          "elemento": "Misiones y retos",
+          "desc": "Estructura el avance y da propósito al aprendizaje",
+          "usar": "Sí",
+          "implementacion": "Tres misiones temáticas y reto final acumulativo"
+        },
+        {
+          "elemento": "Barra de progreso",
+          "desc": "Hace visible cuánto falta y reduce el abandono",
+          "usar": "Sí",
+          "implementacion": "Porcentaje de escenarios superados por misión"
+        },
+        {
+          "elemento": "Narrativa",
+          "desc": "Da sentido a las tareas y sostiene la motivación",
+          "usar": "Sí",
+          "implementacion": "Conflicto contra La Amenaza Digital"
+        },
+        {
+          "elemento": "Retroalimentación inmediata",
+          "desc": "Permite aprender del error sin frustración",
+          "usar": "Sí",
+          "implementacion": "Cada decisión se explica: por qué es segura o riesgosa"
+        },
+        {
+          "elemento": "Avatar personalizable",
+          "desc": "Identificación y expresión del jugador",
+          "usar": "Sí",
+          "implementacion": "Ropa y accesorios de guardián comprables con puntos"
+        },
+        {
+          "elemento": "Desbloqueos",
+          "desc": "Recompensa el avance con contenido nuevo",
+          "usar": "Sí",
+          "implementacion": "Nuevas misiones y escenarios que se abren al completar los previos"
+        },
+        {
+          "elemento": "Recompensas aleatorias",
+          "desc": "Aumentan el enganche pero pueden percibirse como azar injusto",
+          "usar": "No",
+          "implementacion": "Se descarta por tratarse de un producto educativo"
+        },
+        {
+          "elemento": "Límite de tiempo",
+          "desc": "Genera tensión",
+          "usar": "No",
+          "implementacion": "Se descarta: presionaría a los jugadores no habituales"
+        }
+      ]
+    },
+    "octalysis": {
+      "rows": [
+        {
+          "drive": "1. Significado épico",
+          "desc": "El jugador siente que hace parte de algo mayor que él",
+          "valor": "8",
+          "como": "Proteger a su comunidad de La Amenaza Digital"
+        },
+        {
+          "drive": "2. Desarrollo y logro",
+          "desc": "Progreso, dominio y superación de retos",
+          "valor": "9",
+          "como": "Rango de Ciberguardián, insignias y escenarios superados"
+        },
+        {
+          "drive": "3. Creatividad y retroalimentación",
+          "desc": "El jugador toma decisiones propias y ve su efecto",
+          "valor": "7",
+          "como": "Decisiones con consecuencias y retroalimentación explicativa"
+        },
+        {
+          "drive": "4. Propiedad y posesión",
+          "desc": "Acumular y cuidar algo propio",
+          "valor": "6",
+          "como": "Colección de insignias y bitácora personal de decisiones"
+        },
+        {
+          "drive": "5. Influencia social",
+          "desc": "Comparación, colaboración y compañerismo",
+          "valor": "4",
+          "como": "Comentarios de otros estudiantes en el juego; tabla de clasificación en versión futura"
+        },
+        {
+          "drive": "6. Escasez e impaciencia",
+          "desc": "Desear lo que no se puede tener aún",
+          "valor": "3",
+          "como": "Misiones bloqueadas hasta completar las previas"
+        },
+        {
+          "drive": "7. Imprevisibilidad y curiosidad",
+          "desc": "Sorpresa y ganas de saber qué sigue",
+          "valor": "7",
+          "como": "Escenarios variados y trampas cada vez más sutiles"
+        },
+        {
+          "drive": "8. Pérdida y evitación",
+          "desc": "Miedo a perder lo logrado",
+          "valor": "2",
+          "como": "Uso mínimo: solo pérdida de puntos de misión, nunca de progreso"
+        }
+      ]
+    },
+    "bartle": {
+      "rows": [
+        {
+          "tipo": "Explorador",
+          "desc": "Descubrir el mundo, sus rincones y sus secretos",
+          "valor": "7",
+          "oferta": "Escenarios variados y señales ocultas de riesgo por descubrir"
+        },
+        {
+          "tipo": "Triunfador",
+          "desc": "Completar, puntuar y coleccionar logros",
+          "valor": "9",
+          "oferta": "Insignias, puntaje máximo y rango de Ciberguardián"
+        },
+        {
+          "tipo": "Socializador",
+          "desc": "Interactuar con otros personajes y personas",
+          "valor": "6",
+          "oferta": "Mentor y personajes de apoyo con diálogos"
+        },
+        {
+          "tipo": "Competidor",
+          "desc": "Medirse contra otros jugadores",
+          "valor": "2",
+          "oferta": "Sin competencia directa en la versión 1.0"
+        }
+      ]
+    },
+    "loop": {
+      "gatillo": "Llega una notificación al dispositivo del jugador: un correo, un mensaje o una publicación que plantea un nuevo escenario de decisión.",
+      "accion": "Lee la situación, analiza las señales de riesgo, elige una de las opciones y recibe retroalimentación inmediata que explica por qué era segura o riesgosa.",
+      "recompensa": "Puntos de guardián, subida de nivel, insignia de la misión y un mensaje del mentor que refuerza la buena práctica aprendida.",
+      "inversion": "Su bitácora de decisiones crece, su nivel de Ciberguardián sube y se acerca a la insignia de la misión, lo que lo motiva a enfrentar el siguiente escenario.",
+      "sesion": "8 a 12 minutos",
+      "retorno": "Escenarios pendientes por mejorar y las misiones aún sin insignia completa"
+    },
+    "logros": {
+      "rows": [
+        {
+          "logro": "Primera trampa esquivada",
+          "condicion": "Completar el escenario tutorial de phishing",
+          "recompensa": "50 puntos de guardián + insignia",
+          "tipo": "Progreso"
+        },
+        {
+          "logro": "Ojo de halcón",
+          "condicion": "Detectar diez intentos de phishing seguidos sin usar pistas",
+          "recompensa": "200 puntos de guardián",
+          "tipo": "Conocimiento"
+        },
+        {
+          "logro": "Fortaleza inexpugnable",
+          "condicion": "Crear contraseñas fuertes en todos los escenarios de la misión de Contraseñas",
+          "recompensa": "Insignia de Contraseñas dorada",
+          "tipo": "Conocimiento"
+        },
+        {
+          "logro": "Guardián solidario",
+          "condicion": "Elegir siempre la ruta de apoyo en la misión de Ciberacoso",
+          "recompensa": "Insignia de Ciberacoso",
+          "tipo": "Progreso"
+        },
+        {
+          "logro": "Ciberguardián experto",
+          "condicion": "Superar el reto final con puntaje perfecto",
+          "recompensa": "Rango máximo e insignia secreta",
+          "tipo": "Secreto"
+        }
+      ]
+    },
+    "nielsen": {
+      "rows": [
+        {
+          "h": "1. Visibilidad del estado del sistema",
+          "juego": "El jugador siempre sabe dónde está, qué misión tiene activa y cuánto le falta",
+          "estado": "Parcial",
+          "evidencia": "Falta indicador permanente de misión activa en la esquina superior"
+        },
+        {
+          "h": "2. Correspondencia con el mundo real",
+          "juego": "Los nombres, íconos y metáforas corresponden a lo que el jugador conoce fuera del juego",
+          "estado": "Cumple",
+          "evidencia": "Nombres e íconos validados con lenguaje digital cotidiano"
+        },
+        {
+          "h": "3. Control y libertad del usuario",
+          "juego": "Se puede salir de un diálogo, cancelar una misión o volver al menú sin quedar atrapado",
+          "estado": "Parcial",
+          "evidencia": "Agregar botón de salida en la pantalla de reto"
+        },
+        {
+          "h": "4. Consistencia y estándares",
+          "juego": "La misma tecla hace lo mismo en todas las pantallas; los íconos no cambian de significado",
+          "estado": "Cumple",
+          "evidencia": "Esquema de controles documentado en el módulo de requisitos funcionales"
+        },
+        {
+          "h": "5. Prevención de errores",
+          "juego": "El juego evita que el jugador se pierda o quede sin poder avanzar",
+          "estado": "Parcial",
+          "evidencia": "Confirmar antes de salir sin guardar; impedir zonas sin salida"
+        },
+        {
+          "h": "6. Reconocer antes que recordar",
+          "juego": "El mapa y la bitácora están siempre disponibles; no se exige memorizar rutas",
+          "estado": "Cumple",
+          "evidencia": "Mapa accesible con la tecla M en toda la partida"
+        },
+        {
+          "h": "7. Flexibilidad y eficiencia",
+          "juego": "Tutorial omitible, viaje rápido a lugares ya descubiertos, diálogos que se pueden acelerar",
+          "estado": "No cumple",
+          "evidencia": "Implementar viaje rápido y opción de omitir tutorial"
+        },
+        {
+          "h": "8. Diseño estético y minimalista",
+          "juego": "La pantalla no se satura de indicadores; la información aparece cuando se necesita",
+          "estado": "Cumple",
+          "evidencia": "HUD de tres elementos como máximo"
+        },
+        {
+          "h": "9. Ayuda a reconocer y recuperarse de errores",
+          "juego": "Cuando el jugador falla, el juego explica por qué y qué hacer distinto",
+          "estado": "Parcial",
+          "evidencia": "El NPC debe explicar la respuesta correcta, no solo marcarla como errónea"
+        },
+        {
+          "h": "10. Ayuda y documentación",
+          "juego": "Existe un manual o una sección de ayuda accesible desde el menú de pausa",
+          "estado": "No cumple",
+          "evidencia": "Redactar manual de usuario incluido en la entrega final"
+        }
+      ]
+    },
+    "accesibilidad": {
+      "rows": [
+        {
+          "opcion": "Subtítulos",
+          "desc": "Todos los diálogos y sonidos relevantes se muestran como texto",
+          "incluye": "Sí",
+          "nota": "Texto obligatorio; el audio es complementario"
+        },
+        {
+          "opcion": "Modo daltonismo",
+          "desc": "Paletas alternativas para deuteranopía, protanopía y tritanopía",
+          "incluye": "Sí",
+          "nota": "Ninguna información se transmite únicamente por color"
+        },
+        {
+          "opcion": "Tamaño de texto ajustable",
+          "desc": "El jugador puede aumentar el tamaño de la fuente de diálogos e interfaz",
+          "incluye": "Sí",
+          "nota": "Tres tamaños: normal, grande, muy grande"
+        },
+        {
+          "opcion": "Controles personalizables",
+          "desc": "Remapeo de teclas desde el menú de opciones",
+          "incluye": "Versión futura",
+          "nota": "Unity Input System facilita el remapeo"
+        },
+        {
+          "opcion": "Sin límite de tiempo",
+          "desc": "El jugador avanza a su propio ritmo, sin contadores que presionen",
+          "incluye": "Sí",
+          "nota": "Decisión de diseño ya tomada"
+        },
+        {
+          "opcion": "Reducción de movimiento",
+          "desc": "Desactivar sacudidas de cámara y animaciones intensas",
+          "incluye": "Sí",
+          "nota": "Casilla en el menú de opciones"
+        },
+        {
+          "opcion": "Control de volumen independiente",
+          "desc": "Música, efectos y voces con controles separados",
+          "incluye": "Sí",
+          "nota": "AudioMixer de Unity con tres grupos"
+        },
+        {
+          "opcion": "Pausa en cualquier momento",
+          "desc": "El juego puede pausarse incluso durante un reto",
+          "incluye": "Sí",
+          "nota": "Esc siempre disponible"
+        }
+      ]
+    },
+    "plan_usab": {
+      "objetivo": "Verificar que un adolescente que ingresa a la universidad puede completar las tres misiones sin ayuda y mejora su capacidad de reconocer phishing, crear contraseñas seguras y actuar frente al ciberacoso.",
+      "participantes": "12 adolescentes que ingresan a la universidad (6 con experiencia en videojuegos, 6 sin experiencia)",
+      "instrumento": "Observación directa con registro de tiempos y errores, cuestionario SUS (System Usability Scale) de 10 ítems y entrevista breve de cierre.",
+      "metricas": "Tasa de decisiones seguras por escenario (≥ 80 %), tiempo por decisión, número de errores, solicitudes de ayuda y puntaje SUS (meta ≥ 70).",
+      "lugar": "Sala de cómputo o dispositivos personales, durante los talleres de competencias digitales de inducción",
+      "etica": "Participación voluntaria con consentimiento informado; no se recolectan datos personales identificables; los resultados se reportan de forma agregada."
+    },
+    "tareas_usab": {
+      "rows": [
+        {
+          "n": "1",
+          "tarea": "Inicie una partida nueva y complete el escenario tutorial de phishing",
+          "exito": "Decide sin pedir ayuda",
+          "tiempo": "2 min",
+          "resultado": "Pendiente",
+          "obs": ""
+        },
+        {
+          "n": "2",
+          "tarea": "Identifique en un escenario si un correo es phishing y explique por qué",
+          "exito": "Reconoce al menos dos señales correctas",
+          "tiempo": "4 min",
+          "resultado": "Pendiente",
+          "obs": ""
+        },
+        {
+          "n": "3",
+          "tarea": "Cree una contraseña segura en el escenario de la misión de Contraseñas",
+          "exito": "Crea una clave fuerte y entiende la retroalimentación",
+          "tiempo": "3 min",
+          "resultado": "Pendiente",
+          "obs": ""
+        },
+        {
+          "n": "4",
+          "tarea": "Guarde la partida y salga del juego",
+          "exito": "Guarda sin ayuda y confirma la salida",
+          "tiempo": "1 min",
+          "resultado": "Pendiente",
+          "obs": ""
+        },
+        {
+          "n": "5",
+          "tarea": "Cambie el tamaño de texto de la interfaz",
+          "exito": "Encuentra la opción en el menú",
+          "tiempo": "2 min",
+          "resultado": "Pendiente",
+          "obs": ""
+        }
+      ]
+    },
+    "narrativa": {
+      "logline": "Un primíparo de la Universidad del Quindío cae en un engaño de phishing que empieza a digitalizar su vida y su entorno; con la ayuda de Byte y un Flipper modificado deberá atravesar la residencia y la ciudad, rescatar personas y llegar a la universidad para detener a La Amenaza Digital.",
+      "premisa": "Tras abrir un enlace de inducción no oficial, reutilizar una contraseña sencilla y entregar información personal, el protagonista descubre que sus cuentas y el entorno comienzan a ser absorbidos por una amenaza digital. Byte le enseña a utilizar herramientas inspiradas en redes para detectar, ralentizar y desconectar enemigos, mientras los puzzles le exigen reconocer señales de phishing, verificar mensajes y actuar frente al ciberacoso.",
+      "ambientacion": "Residencia estudiantil, barrio y trayecto urbano, Universidad del Quindío y salas de informática; la digitalización invade progresivamente espacios físicos y dispositivos.",
+      "tono": "Cotidiano con humor amable; nunca solemne ni terrorífico",
+      "tema": "El paso de la exposición ingenua a la autonomía digital: cuidarse en línea y cuidar a los demás es parte de la ciudadanía universitaria.",
+      "conflicto": "Llegar a la universidad y detener la digitalización sin perder de vista a las personas afectadas. El jugador puede priorizar avanzar o dedicar tiempo a rescatar NPC y aprender de sus casos.",
+      "punto_partida": "El protagonista abre por WhatsApp un enlace de inducción no oficial, inicia sesión y expone información sensible; poco después descubre transacciones y mensajes realizados sin su consentimiento.",
+      "cierre": "Después de liberar a los ingenieros y desconectar los puntos de acceso del jefe final, Byte se sacrifica entrando en la nube de datos para detener la amenaza. La universidad vuelve a la normalidad y posteriormente los ingenieros reconstruyen una versión física de Byte."
+    },
+    "actos": {
+      "rows": [
+        {
+          "acto": "Acto I — Despertar del guardián",
+          "que": "El protagonista recibe su primer correo sospechoso y el mentor lo invita a convertirse en Ciberguardián",
+          "objetivo": "Superar la misión de Phishing",
+          "escenario": "Bandeja de correo y mensajería",
+          "mecanica": "Escenarios de decisión y retroalimentación"
+        },
+        {
+          "acto": "Acto II — Entrenamiento",
+          "que": "Aprende a proteger sus cuentas y a actuar frente al ciberacoso, debilitando a los secuaces de La Amenaza Digital",
+          "objetivo": "Completar las misiones de Contraseñas y Ciberacoso",
+          "escenario": "Registro de cuentas, redes sociales y chats",
+          "mecanica": "Escenarios de decisión, medidor de fortaleza y rutas de apoyo"
+        },
+        {
+          "acto": "Acto III — Confrontación",
+          "que": "Con las tres insignias, enfrenta a La Amenaza Digital en el reto final acumulativo",
+          "objetivo": "Superar el reto final y graduarse como Ciberguardián",
+          "escenario": "Reto final",
+          "mecanica": "Reto acumulativo de los tres ejes"
+        }
+      ]
+    },
+    "misiones": {
+      "rows": [
+        {
+          "id": "M-00",
+          "nombre": "Aprende a verificar tu red",
+          "tipo": "Tutorial",
+          "objetivo": "Aprender movilidad, interacción, PING y el uso básico del Flipper con enemigos estáticos.",
+          "lugar": "Habitación del estudiante",
+          "recompensa": "Desbloqueo inicial de herramientas",
+          "aprendizaje": "Reconocer dispositivos y comprender el propósito de verificar antes de actuar."
+        },
+        {
+          "id": "M-01",
+          "nombre": "Desbloquear la residencia",
+          "tipo": "Principal",
+          "objetivo": "Encontrar zonas menos digitalizadas, resolver puzzles, controlar enemigos Legs/Headless/Full y decidir cuáles rescatar.",
+          "lugar": "Residencia estudiantil",
+          "recompensa": "Puntos de conocimiento y avance de historia",
+          "aprendizaje": "Phishing, verificación de mensajes, señales de perfiles sospechosos y decisiones seguras."
+        },
+        {
+          "id": "M-02",
+          "nombre": "Trayecto a la universidad",
+          "tipo": "Principal",
+          "objetivo": "Recorrer el trayecto en moto, recolectar tokens de cómputo y evitar que el dron alcance al protagonista.",
+          "lugar": "Trayecto urbano hacia la Universidad del Quindío",
+          "recompensa": "Byte obtiene capacidad suficiente para intervenir contra el dron",
+          "aprendizaje": "Consecuencias de la suplantación y pérdida de control de cuentas."
+        },
+        {
+          "id": "M-03",
+          "nombre": "Salvar los ingenieros",
+          "tipo": "Principal",
+          "objetivo": "Desbloquear las salas de informática, completar puzzles y liberar ingenieros digitalizados.",
+          "lugar": "Universidad / salas de informática",
+          "recompensa": "Acceso a la sala principal y apoyo de los ingenieros",
+          "aprendizaje": "Privacidad, ciberacoso, phishing y respuesta segura ante incidentes."
+        },
+        {
+          "id": "M-04",
+          "nombre": "Eliminar la Amenaza Digital",
+          "tipo": "Jefe final",
+          "objetivo": "Ralentizar al jefe, completar puzzles y desconectarlo de cuatro routers antes de superar su segunda fase.",
+          "lugar": "Sala principal de cómputo",
+          "recompensa": "Final de campaña",
+          "aprendizaje": "Integración de los conceptos y prácticas aprendidos durante la campaña."
+        }
+      ]
+    },
+    "dialogos": {
+      "rows": [
+        {
+          "momento": "Primer encuentro con la mentora",
+          "personaje": "Ada (mentora)",
+          "linea": "«Ese correo que te llegó no es de la universidad. Respira, míralo bien conmigo y aprende a reconocerlo.»",
+          "intencion": "Bajar la ansiedad del jugador y establecer el tono cercano"
+        },
+        {
+          "momento": "Primer anzuelo",
+          "personaje": "Correo Anzuelo",
+          "linea": "«¡Tu cuenta será suspendida en 24 horas! Haz clic aquí ahora mismo para no perderla.»",
+          "intencion": "Mostrar cómo el phishing usa la urgencia para engañar"
+        },
+        {
+          "momento": "Decisión riesgosa",
+          "personaje": "Ada (mentora)",
+          "linea": "«Casi. Antes de hacer clic, revisa el remitente y el dominio: ahí casi siempre está la pista.»",
+          "intencion": "Corregir sin castigar y enseñar a verificar"
+        },
+        {
+          "momento": "Enfrentamiento final",
+          "personaje": "La Amenaza Digital",
+          "linea": "«Yo no fuerzo nada. Solo aprovecho la prisa y el descuido de quienes no verifican.»",
+          "intencion": "Cerrar el tema del juego de forma explícita"
+        }
+      ]
+    },
+    "finales": {
+      "rows": [
+        {
+          "final": "Final estándar",
+          "condicion": "Completar las tres misiones y el reto final",
+          "mensaje": "Ceremonia de graduación como Ciberguardián, resumen de decisiones y certificado descargable de buenas prácticas"
+        },
+        {
+          "final": "Final completo",
+          "condicion": "Completar todo con puntaje alto en los escenarios de práctica",
+          "mensaje": "Escena adicional en la que el jugador orienta a otro estudiante nuevo; insignia exclusiva de Guardián Experto"
+        },
+        {
+          "final": "Partida interrumpida",
+          "condicion": "El jugador sale sin terminar",
+          "mensaje": "Se guarda el progreso y al volver la mentora recuerda la misión activa"
+        }
+      ]
+    },
+    "protagonistas": {
+      "rows": [
+        {
+          "nombre": "Dani",
+          "rol": "Estudiante que ingresa a la universidad",
+          "desc": "Personaje principal, es a quien el jugador controla. Recién ingresa a la universidad, muy activo en redes y mensajería, y aprende a convertirse en Ciberguardián.",
+          "lugar": "Inicio del juego",
+          "jugable": "Sí"
+        },
+        {
+          "nombre": "Ada",
+          "rol": "Mentora en ciberseguridad (NPC)",
+          "desc": "Estudiante de semestres avanzados que guía al jugador, entrega las misiones y explica con claridad por qué una decisión es segura o riesgosa.",
+          "lugar": "Semana de inducción",
+          "jugable": "No"
+        },
+        {
+          "nombre": "Byte",
+          "rol": "Asistente digital (NPC)",
+          "desc": "Compañero simpático que da pistas breves dentro de cada escenario y anima al jugador cuando duda.",
+          "lugar": "Interfaz del juego",
+          "jugable": "No"
+        },
+        {
+          "nombre": "Prof. Rojas",
+          "rol": "Docente de competencias digitales",
+          "desc": "Presenta cada misión con un caso real y desbloquea el reto final contra La Amenaza Digital.",
+          "lugar": "Aula virtual",
+          "jugable": "No"
+        },
+        {
+          "nombre": "Consejera de Bienestar",
+          "rol": "Apoyo psicosocial",
+          "desc": "Aparece en la misión de ciberacoso para mostrar rutas de apoyo, reporte y acompañamiento.",
+          "lugar": "Bienestar Universitario",
+          "jugable": "No"
+        }
+      ]
+    },
+    "antagonistas": {
+      "rows": [
+        {
+          "nombre": "La Amenaza Digital",
+          "rol": "Jefe final",
+          "desc": "Entidad que controla y alimenta a todos los demás enemigos. Su objetivo es comprometer las cuentas, los datos y la tranquilidad de los estudiantes nuevos.",
+          "lugar": "Reto final",
+          "contra": "Reto acumulativo que combina phishing, contraseñas y ciberacoso"
+        },
+        {
+          "nombre": "Correo Anzuelo",
+          "rol": "Suplantador (Phishing)",
+          "desc": "Correo falso que imita a la universidad o a un banco para robar credenciales.",
+          "lugar": "Bandeja de correo",
+          "contra": "Verificar remitente, dominio y enlaces antes de actuar"
+        },
+        {
+          "nombre": "Enlace Camuflado",
+          "rol": "Suplantador (Phishing)",
+          "desc": "Enlace acortado o disfrazado que lleva a una página falsa.",
+          "lugar": "Chat y redes",
+          "contra": "Previsualizar el enlace y comprobar el dominio oficial"
+        },
+        {
+          "nombre": "Falso Soporte",
+          "rol": "Suplantador (Phishing)",
+          "desc": "Mensaje que finge ser soporte técnico y pide datos o códigos.",
+          "lugar": "Llamada o mensaje",
+          "contra": "No compartir códigos y usar el canal oficial"
+        },
+        {
+          "nombre": "Contraseña Repetida",
+          "rol": "Manipulador (Contraseñas)",
+          "desc": "Convence al jugador de usar la misma clave en todos lados.",
+          "lugar": "Registro de cuentas",
+          "contra": "Usar contraseñas únicas y un gestor de contraseñas"
+        },
+        {
+          "nombre": "Clave Obvia",
+          "rol": "Manipulador (Contraseñas)",
+          "desc": "Empuja a elegir contraseñas fáciles como fechas o nombres.",
+          "lugar": "Creación de clave",
+          "contra": "Crear claves largas, con frases y variedad de caracteres"
+        },
+        {
+          "nombre": "Fuerza Bruta",
+          "rol": "Manipulador (Contraseñas)",
+          "desc": "Prueba miles de combinaciones contra claves débiles.",
+          "lugar": "Inicio de sesión",
+          "contra": "Activar segundo factor y usar claves robustas"
+        },
+        {
+          "nombre": "Troll Anónimo",
+          "rol": "Acosador (Ciberacoso)",
+          "desc": "Agrede e insulta en comentarios y chats para provocar una reacción.",
+          "lugar": "Comentarios y chats",
+          "contra": "No responder, bloquear, documentar y reportar"
+        },
+        {
+          "nombre": "Difusor",
+          "rol": "Acosador (Ciberacoso)",
+          "desc": "Comparte contenido privado o rumores para humillar a alguien.",
+          "lugar": "Redes sociales",
+          "contra": "Reportar el contenido y acudir a rutas de apoyo"
+        },
+        {
+          "nombre": "Grupo de Presión",
+          "rol": "Acosador (Ciberacoso)",
+          "desc": "Aísla y hostiga en grupo a la víctima en redes.",
+          "lugar": "Grupos y chats",
+          "contra": "Buscar apoyo, no participar y activar la ruta institucional"
+        }
+      ]
+    },
+    "npcs": {
+      "rows": [
+        {
+          "nombre": "Ada (mentora)",
+          "lugar": "Misión de Phishing",
+          "funcion": "Explica cómo reconocer correos y enlaces falsos",
+          "info": "Señales de phishing: urgencia, remitente sospechoso, dominios falsos, enlaces y adjuntos"
+        },
+        {
+          "nombre": "Byte (asistente)",
+          "lugar": "Misión de Contraseñas",
+          "funcion": "Guía la creación de contraseñas seguras",
+          "info": "Contraseñas largas y únicas, gestores de contraseñas y segundo factor de autenticación"
+        },
+        {
+          "nombre": "Consejera de Bienestar",
+          "lugar": "Misión de Ciberacoso",
+          "funcion": "Muestra rutas de apoyo y reporte",
+          "info": "Cómo bloquear, documentar y reportar; canales de apoyo psicosocial de la universidad"
+        },
+        {
+          "nombre": "Encargado de soporte TI",
+          "lugar": "Reto final",
+          "funcion": "Valida buenas prácticas",
+          "info": "Canales oficiales de la universidad para reportar incidentes de seguridad"
+        },
+        {
+          "nombre": "Prof. Rojas",
+          "lugar": "Aula virtual",
+          "funcion": "Presenta cada misión con un caso real",
+          "info": "Contexto y objetivo de aprendizaje de cada uno de los tres ejes"
+        }
+      ]
+    },
+    "fichas": {
+      "rows": [
+        {
+          "personaje": "Dani",
+          "apariencia": "Estudiante joven, morral, celular en mano, ropa informal en tonos neutros",
+          "personalidad": "Curioso, confiado con la tecnología pero descuidado al principio",
+          "motivacion": "Cuidar sus cuentas y datos, y aprender a protegerse en línea",
+          "arco": "Pasa de tomar decisiones impulsivas a convertirse en Ciberguardián que orienta a otros",
+          "ref": "Sprite 32×32, 4 direcciones"
+        },
+        {
+          "personaje": "Ada",
+          "apariencia": "Estudiante de semestres avanzados, sudadera con capucha, portátil con calcomanías",
+          "personalidad": "Serena, clara, cercana; explica sin tecnicismos",
+          "motivacion": "Que ningún estudiante nuevo caiga en engaños digitales evitables",
+          "arco": "Acompaña al jugador en las tres misiones hasta el reto final",
+          "ref": "Sprite 48×32, animación de idle"
+        },
+        {
+          "personaje": "La Amenaza Digital",
+          "apariencia": "Silueta aracnoide de humo oscuro formada por candados rotos, anzuelos y ventanas de chat",
+          "personalidad": "Seductora, aprovecha la prisa y el descuido",
+          "motivacion": "Alimentarse de los errores digitales de los estudiantes",
+          "arco": "Se debilita visiblemente a medida que el jugador toma decisiones seguras",
+          "ref": "Efecto de partículas y sprite de 96×96"
+        }
+      ]
+    },
+    "arbol_enemigos": {
+      "boss": {
+        "name": "🕷️ La Amenaza Digital",
+        "desc": "Controla y alimenta a todos los demás enemigos. Su objetivo: comprometer las cuentas, los datos y la tranquilidad de los estudiantes nuevos aprovechando sus descuidos digitales."
+      },
+      "cats": [
+        {
+          "name": "🎣 Suplantadores (Phishing)",
+          "enemies": [
+            {
+              "name": "Correo Anzuelo",
+              "desc": "Correo falso que imita a la universidad o a un banco para robar credenciales."
+            },
+            {
+              "name": "Enlace Camuflado",
+              "desc": "Enlace acortado o disfrazado que lleva a una página falsa de inicio de sesión."
+            },
+            {
+              "name": "Falso Soporte",
+              "desc": "Mensaje que finge ser soporte técnico y pide datos o códigos de acceso."
+            }
+          ]
+        },
+        {
+          "name": "🔓 Manipuladores (Contraseñas)",
+          "enemies": [
+            {
+              "name": "Contraseña Repetida",
+              "desc": "Convence al jugador de usar la misma clave en todos lados."
+            },
+            {
+              "name": "Clave Obvia",
+              "desc": "Empuja a elegir contraseñas fáciles como fechas o nombres."
+            },
+            {
+              "name": "Fuerza Bruta",
+              "desc": "Prueba miles de combinaciones contra claves débiles."
+            }
+          ]
+        },
+        {
+          "name": "💢 Acosadores (Ciberacoso)",
+          "enemies": [
+            {
+              "name": "Troll Anónimo",
+              "desc": "Agrede e insulta en comentarios y chats para provocar una reacción."
+            },
+            {
+              "name": "Difusor",
+              "desc": "Comparte contenido privado o rumores para humillar a alguien."
+            },
+            {
+              "name": "Grupo de Presión",
+              "desc": "Aísla y hostiga en grupo a la víctima en redes."
+            }
+          ]
+        }
+      ]
+    },
+    "enemigos_mec": {
+      "rows": [
+        {
+          "enemigo": "Legs",
+          "aparicion": "Primeras secciones del Nivel 1",
+          "comportamiento": "Persigue al jugador a velocidad aproximada de 2× la velocidad del jugador. Requiere 2 impactos máximos de Ping Flood para congelarse.",
+          "debilidad": "Ping Flood; congelamiento de aproximadamente 10 s permite acercarse y usar ARP Spoofing.",
+          "dano": "Si alcanza al jugador mientras está activo, obliga a reiniciar desde el inicio del cuarto."
+        },
+        {
+          "enemigo": "Headless",
+          "aparicion": "Progresión intermedia",
+          "comportamiento": "Persigue al jugador aproximadamente a su misma velocidad. Requiere 3 impactos máximos para congelarse.",
+          "debilidad": "Ping Flood; congelamiento de aproximadamente 5 s para realizar ARP Spoofing.",
+          "dano": "Contacto activo reinicia el encuentro/cuarto."
+        },
+        {
+          "enemigo": "Full",
+          "aparicion": "Secciones avanzadas",
+          "comportamiento": "Persigue al jugador a aproximadamente 0,9× su velocidad. Requiere 5 impactos máximos para congelarse.",
+          "debilidad": "Ping Flood; ventana de congelamiento de aproximadamente 2 s, exigiendo mayor precisión para realizar ARP Spoofing.",
+          "dano": "Contacto activo reinicia el encuentro/cuarto."
+        },
+        {
+          "enemigo": "La Amenaza Digital",
+          "aparicion": "Nivel 4 — jefe final",
+          "comportamiento": "Permanece conectada a varios puntos de acceso; obliga al jugador a combinar ralentización, puzzles y desconexión de cuatro routers.",
+          "debilidad": "Completar los puzzles y cortar progresivamente sus conexiones; segunda fase tras el reinicio.",
+          "dano": "Bloquea el avance y pone en riesgo la liberación definitiva de la red universitaria."
+        }
+      ]
+    },
+    "pantallas": {
+      "rows": [
+        {
+          "pantalla": "Loading",
+          "desc": "Muestra el logo del juego y de la universidad con una barra de carga",
+          "conecta": "Menú principal"
+        },
+        {
+          "pantalla": "Menú principal",
+          "desc": "Interfaz con motivo digital de fondo; conecta con los modos de juego",
+          "conecta": "Jugar, Continuar, Opciones, Créditos"
+        },
+        {
+          "pantalla": "Jugar",
+          "desc": "Permite iniciar una partida nueva y elegir el avatar",
+          "conecta": "Juego"
+        },
+        {
+          "pantalla": "Continuar",
+          "desc": "Carga inmediatamente la última partida guardada",
+          "conecta": "Juego"
+        },
+        {
+          "pantalla": "Opciones",
+          "desc": "Volumen, tamaño de texto, modo daltonismo y controles",
+          "conecta": "Menú principal"
+        },
+        {
+          "pantalla": "Créditos",
+          "desc": "Muestra un fondo temático mientras aparecen los créditos de desarrollo",
+          "conecta": "Menú principal"
+        },
+        {
+          "pantalla": "Juego",
+          "desc": "Escenario principal donde el jugador enfrenta situaciones digitales y toma decisiones",
+          "conecta": "Selección de misión, Bitácora, Escenario, Retroalimentación, Pausa"
+        },
+        {
+          "pantalla": "Selección de misión",
+          "desc": "Panel con las tres misiones y su progreso",
+          "conecta": "Juego"
+        },
+        {
+          "pantalla": "Bitácora de misiones",
+          "desc": "Lista de misiones activas y completadas con su descripción",
+          "conecta": "Juego"
+        },
+        {
+          "pantalla": "Escenario de decisión",
+          "desc": "Situación digital (correo, chat, red) con opciones de respuesta",
+          "conecta": "Juego, Retroalimentación"
+        },
+        {
+          "pantalla": "Retroalimentación",
+          "desc": "Explica por qué la decisión fue segura o riesgosa y da la buena práctica",
+          "conecta": "Juego"
+        },
+        {
+          "pantalla": "Pausa",
+          "desc": "Reanudar, guardar, opciones o salir al menú",
+          "conecta": "Juego, Opciones, Menú principal"
+        },
+        {
+          "pantalla": "Victoria de misión",
+          "desc": "Resumen de recompensas obtenidas al completar una misión",
+          "conecta": "Juego"
+        },
+        {
+          "pantalla": "Final del juego",
+          "desc": "Escena de cierre con el resumen de lugares descubiertos",
+          "conecta": "Créditos, Menú principal"
+        }
+      ]
+    },
+    "detalle_pantallas": {
+      "rows": [
+        {
+          "pantalla": "Menú principal",
+          "desc": "Pantalla inicial del juego donde el jugador inicia, continúa o accede a opciones",
+          "elementos": "Título del juego, botones Jugar / Continuar / Opciones / Créditos, fondo animado temático",
+          "interacciones": "«Jugar» → selección de avatar; «Opciones» → menú de configuración",
+          "notas": "Música de fondo e imagen llamativa; botón «Continuar» deshabilitado si no hay partida"
+        },
+        {
+          "pantalla": "Juego",
+          "desc": "Escenario principal donde el jugador enfrenta situaciones digitales",
+          "elementos": "Situación digital, opciones, HUD con misión activa, nivel de guardián y puntos",
+          "interacciones": "Elegir opción → retroalimentación → siguiente escenario",
+          "notas": "Máximo tres elementos de HUD simultáneos"
+        },
+        {
+          "pantalla": "Selección de misión",
+          "desc": "Panel con las tres misiones del juego",
+          "elementos": "Tarjetas de Phishing, Contraseñas y Ciberacoso, progreso e insignias, botón Regresar",
+          "interacciones": "Clic en misión desbloqueada → inicia la misión",
+          "notas": "Diferenciar misiones bloqueadas con color opaco y un ícono, nunca solo con color"
+        },
+        {
+          "pantalla": "Escenario de decisión",
+          "desc": "Situación digital realista de opción múltiple",
+          "elementos": "Situación (correo, chat, red), cuatro opciones, botón de pista, retrato del mentor",
+          "interacciones": "Elegir → retroalimentación → siguiente escenario",
+          "notas": "La retroalimentación debe explicar por qué, no solo marcar correcto o incorrecto"
+        },
+        {
+          "pantalla": "Victoria de misión",
+          "desc": "Aparece al completar una misión, mostrando puntos y logros obtenidos",
+          "elementos": "Mensaje «Misión completada», puntos de guardián obtenidos, insignia si aplica, botón Continuar",
+          "interacciones": "«Continuar» → regreso al juego en el mismo punto",
+          "notas": "Animación breve, no más de tres segundos, omitible con una tecla"
+        },
+        {
+          "pantalla": "Final del juego",
+          "desc": "Cierre de la partida con el balance del recorrido",
+          "elementos": "Escena de graduación como Ciberguardián, porcentaje de escenarios superados, decisiones visitados, botón Créditos",
+          "interacciones": "«Créditos» → pantalla de créditos; «Menú» → menú principal",
+          "notas": "Ofrecer descargar el mapa completo del campus como imagen"
+        }
+      ]
+    },
+    "mockups": {
+      "rows": [
+        {
+          "pantalla": "Menú principal",
+          "herramienta": "Figma",
+          "ubicacion": "Carpeta compartida del proyecto / 01_menu",
+          "responsable": "Integrante de arte",
+          "estado": "Boceto"
+        },
+        {
+          "pantalla": "Juego (HUD)",
+          "herramienta": "Figma",
+          "ubicacion": "Carpeta compartida del proyecto / 02_hud",
+          "responsable": "Integrante de arte",
+          "estado": "Boceto"
+        },
+        {
+          "pantalla": "Selección de misión",
+          "herramienta": "Figma",
+          "ubicacion": "Carpeta compartida del proyecto / 03_misiones",
+          "responsable": "Integrante de diseño",
+          "estado": "Pendiente"
+        },
+        {
+          "pantalla": "Escenario de decisión",
+          "herramienta": "Figma",
+          "ubicacion": "Carpeta compartida del proyecto / 04_escenario",
+          "responsable": "Integrante de arte",
+          "estado": "Pendiente"
+        }
+      ]
+    },
+    "assets": {
+      "rows": [
+        {
+          "tipo": "Sprite",
+          "elemento": "Personaje jugable (avatar y expresiones)",
+          "cantidad": "1",
+          "responsable": "Integrante de arte",
+          "estado": "En proceso"
+        },
+        {
+          "tipo": "Sprite",
+          "elemento": "Mentor, asistente y personajes de apoyo",
+          "cantidad": "4",
+          "responsable": "Integrante de arte",
+          "estado": "Pendiente"
+        },
+        {
+          "tipo": "Sprite",
+          "elemento": "Enemigos del árbol de La Amenaza Digital",
+          "cantidad": "10",
+          "responsable": "Integrante de arte",
+          "estado": "Pendiente"
+        },
+        {
+          "tipo": "Interfaz",
+          "elemento": "Plantillas de correo, chat y redes sociales para los escenarios",
+          "cantidad": "3",
+          "responsable": "Integrante de diseño",
+          "estado": "En proceso"
+        },
+        {
+          "tipo": "Interfaz",
+          "elemento": "Pantallas de inicio de sesión y creación de contraseñas",
+          "cantidad": "2",
+          "responsable": "Integrante de diseño",
+          "estado": "Pendiente"
+        },
+        {
+          "tipo": "Interfaz",
+          "elemento": "HUD, bitácora, selección de misión, escenario y panel de retroalimentación",
+          "cantidad": "5",
+          "responsable": "Integrante de arte",
+          "estado": "Pendiente"
+        },
+        {
+          "tipo": "Música",
+          "elemento": "Tema de menú, tema de tensión y tema final",
+          "cantidad": "3",
+          "responsable": "Por definir",
+          "estado": "Pendiente"
+        },
+        {
+          "tipo": "Efecto de sonido",
+          "elemento": "Selección, decisión segura, decisión riesgosa, notificación, logro",
+          "cantidad": "5",
+          "responsable": "Por definir",
+          "estado": "Pendiente"
+        }
+      ]
+    },
+    "roadmap": {
+      "rows": [
+        {
+          "version": "0.2.0",
+          "alcance": "Vertical slice del bucle principal",
+          "especifico": "Movimiento 3D, cámara over-the-shoulder, PING, Ping Flood, ARP Spoofing, un enemigo funcional y un puzzle Canvas.",
+          "tiempo": "Por definir con cronograma del diplomado",
+          "estado": "En desarrollo"
+        },
+        {
+          "version": "0.3.0",
+          "alcance": "Nivel 1 — residencia",
+          "especifico": "Enemigos Legs/Headless/Full, puzzles de phishing y mensajería, rescate de NPC y puntos de conocimiento.",
+          "tiempo": "Por definir",
+          "estado": "Pendiente"
+        },
+        {
+          "version": "0.4.0",
+          "alcance": "Nivel 2 — persecución",
+          "especifico": "Trayecto a la universidad, moto, dron y recolección de tokens de cómputo.",
+          "tiempo": "Por definir",
+          "estado": "Pendiente"
+        },
+        {
+          "version": "0.5.0",
+          "alcance": "Nivel 3 — universidad",
+          "especifico": "Salas de informática, puzzles de ciberacoso, rescate de ingenieros y progresión narrativa.",
+          "tiempo": "Por definir",
+          "estado": "Pendiente"
+        },
+        {
+          "version": "0.8.0",
+          "alcance": "Nivel 4 y campaña completa",
+          "especifico": "Jefe final, cuatro routers, segunda fase, desenlace, arte/audio integrados.",
+          "tiempo": "Por definir",
+          "estado": "Pendiente"
+        },
+        {
+          "version": "0.9.0",
+          "alcance": "Beta",
+          "especifico": "Pruebas funcionales y de usabilidad con usuarios, correcciones y balance.",
+          "tiempo": "Por definir",
+          "estado": "Pendiente"
+        },
+        {
+          "version": "1.0.0",
+          "alcance": "Entrega final",
+          "especifico": "Correcciones de beta, manual, ejecutable distribuible y documentación final coherente con lo implementado.",
+          "tiempo": "Por definir",
+          "estado": "Pendiente"
+        }
+      ]
+    },
+    "beta": {
+      "alcance_beta": "Versión 0.9.0 con las tres misiones y el reto final, probada con adolescentes que ingresan a la universidad.",
+      "participantes_beta": "30 adolescentes que ingresan a la universidad",
+      "duracion": "Dos sesiones de 45 minutos en semanas consecutivas",
+      "instrumentos": "Registro automático de eventos del juego (misiones completadas, tiempos, errores), cuestionario SUS y encuesta de satisfacción de 8 preguntas.",
+      "criterio_exito": "Al menos el 80 % de los participantes completa las tres misiones; SUS promedio ≥ 70; mejora medible en el puntaje de reconocimiento de riesgos de ciberseguridad entre el pretest y el postest.",
+      "riesgos": "Disponibilidad de salas de cómputo, variabilidad de dispositivos, y baja asistencia de participantes voluntarios en semanas de alta carga académica."
+    },
+    "casos": {
+      "rows": [
+        {
+          "id": "CP-01",
+          "rf": "RF-01",
+          "escenario": "El jugador se desplaza con W A S D por el escenario inicial y colisiona con un muro",
+          "esperado": "El personaje se mueve en las cuatro direcciones y no atraviesa la colisión",
+          "estado": "Pendiente",
+          "obs": "",
+          "version": ""
+        },
+        {
+          "id": "CP-02",
+          "rf": "RF-02",
+          "escenario": "Se pulsa M durante la partida",
+          "esperado": "El mapa se abre en menos de un segundo y muestra los puntos descubiertos",
+          "estado": "Pendiente",
+          "obs": "",
+          "version": ""
+        },
+        {
+          "id": "CP-03",
+          "rf": "RF-11",
+          "escenario": "Se responde incorrectamente un reto de conocimiento",
+          "esperado": "El juego muestra la respuesta correcta con una explicación y permite reintentar sin reiniciar",
+          "estado": "Pendiente",
+          "obs": "",
+          "version": ""
+        },
+        {
+          "id": "CP-04",
+          "rf": "RF-12",
+          "escenario": "Se guarda la partida, se cierra el juego y se abre de nuevo con «Continuar»",
+          "esperado": "Se restaura la posición, las misiones activas y los créditos acumulados",
+          "estado": "Pendiente",
+          "obs": "",
+          "version": ""
+        },
+        {
+          "id": "CP-05",
+          "rf": "RF-13",
+          "escenario": "Se descubre un lugar nuevo del campus",
+          "esperado": "El punto se marca en el mapa y el porcentaje de avance aumenta",
+          "estado": "Pendiente",
+          "obs": "",
+          "version": ""
+        },
+        {
+          "id": "CP-06",
+          "rf": "RF-09",
+          "escenario": "Se activa el modo daltonismo y se revisa el mapa",
+          "esperado": "Los puntos bloqueados siguen siendo distinguibles por ícono, no solo por color",
+          "estado": "Pendiente",
+          "obs": "",
+          "version": ""
+        },
+        {
+          "id": "CP-07",
+          "rf": "RF-15",
+          "escenario": "Un jugador nuevo inicia partida por primera vez",
+          "esperado": "El tutorial se activa automáticamente y puede omitirse con una tecla",
+          "estado": "Pendiente",
+          "obs": "",
+          "version": ""
+        }
+      ]
+    },
+    "casos_guia": {},
+    "glosario_t": {
+      "rows": [
+        {
+          "termino": "Videojuego",
+          "definicion": "Medio de entretenimiento que involucra a un usuario, denominado jugador, en una interacción constante entre una interfaz y un dispositivo de video; se define por el grado y la naturaleza de la interactividad que el juego incluye.",
+          "fuente": "Rouse (2001); Morales Urrutia et al. (2010)"
+        },
+        {
+          "termino": "Gamificación",
+          "definicion": "Uso de elementos de diseño y de la lógica de los videojuegos en contextos no lúdicos, con el fin de mejorar la motivación y el compromiso de los usuarios.",
+          "fuente": "Rodríguez (2017); Dewey (2024)"
+        },
+        {
+          "termino": "Motor Unity",
+          "definicion": "Plataforma de desarrollo de videojuegos multiplataforma que permite crear juegos 2D y 3D, usada también en cine, automoción, arquitectura e ingeniería.",
+          "fuente": "Alexandru, Cristina y Mironela (2021, p. 267)"
+        },
+        {
+          "termino": "Diseño de niveles",
+          "definicion": "Combinación de habilidades artísticas y de programación para estructurar los escenarios, su progresión y sus desafíos.",
+          "fuente": "Belanger (2024)"
+        },
+        {
+          "termino": "Advergaming",
+          "definicion": "Videojuegos publicitarios en los que la marca comunica mensajes a través de una trama interactiva, buscando mayor visibilidad, recordación e impacto duradero.",
+          "fuente": "Farías (2018)"
+        },
+        {
+          "termino": "Phishing",
+          "definicion": "Técnica de engaño en la que un atacante se hace pasar por una entidad confiable (banco, universidad, servicio) para robar credenciales o datos personales, normalmente por correo o mensajes.",
+          "fuente": "Glosario de ciberseguridad — Ciberguardianes"
+        },
+        {
+          "termino": "Contraseña segura",
+          "definicion": "Clave larga, única y difícil de adivinar, idealmente basada en una frase y combinada con un segundo factor de autenticación.",
+          "fuente": "Glosario de ciberseguridad — Ciberguardianes"
+        },
+        {
+          "termino": "Ciberacoso",
+          "definicion": "Uso de medios digitales para hostigar, humillar o amenazar de forma repetida a una persona; su manejo incluye no responder, bloquear, documentar y reportar por los canales adecuados.",
+          "fuente": "Glosario de ciberseguridad — Ciberguardianes"
+        },
+        {
+          "termino": "Experiencia de usuario (UX)",
+          "definicion": "Vivencias que obtienen los usuarios al utilizar una aplicación, objeto, artefacto o prototipo. No se diseñan experiencias: se diseñan objetos para crear experiencias.",
+          "fuente": "Glosario de la plantilla INGELECT"
+        },
+        {
+          "termino": "Interfaz de usuario (UI)",
+          "definicion": "Medio por el cual el usuario interactúa con un sistema informático o dispositivo electrónico; en sistemas mecánicos se denomina interfaz hombre-máquina (HMI).",
+          "fuente": "Glosario de la plantilla INGELECT"
+        },
+        {
+          "termino": "Shaders",
+          "definicion": "Programas de sombreado que permiten implementar efectos de iluminación, sombras, reflejos y mapeo de texturas, integrados al proceso de desarrollo de juegos modernos.",
+          "fuente": "Glosario de la plantilla INGELECT"
+        },
+        {
+          "termino": "Texturas",
+          "definicion": "Imágenes utilizadas para agregar detalle a la geometría y los modelos, y para dar representación visual a elementos del juego como los menús; definen buena parte del estilo artístico.",
+          "fuente": "Glosario de la plantilla INGELECT"
+        },
+        {
+          "termino": "NPC (Non Playable Character)",
+          "definicion": "Personaje no jugador, controlado por la computadora en lugar del jugador. El término es anterior a los juegos digitales: proviene de los juegos de rol de mesa.",
+          "fuente": "Warpefelt (2016)"
+        },
+        {
+          "termino": "Beta testing",
+          "definicion": "Prueba de usuario que abarca usabilidad, funcionalidad, compatibilidad y confiabilidad, y que entrega mucho más que una perspectiva de usuario estándar.",
+          "fuente": "Fine (2003)"
+        },
+        {
+          "termino": "GDD (Game Design Document)",
+          "definicion": "Documento vivo que recoge todas las decisiones de diseño del videojuego: mecánicas, requisitos, narrativa, personajes, interfaces y plan de versiones.",
+          "fuente": "Plantilla INGELECT"
+        },
+        {
+          "termino": "MDA",
+          "definicion": "Marco de análisis que separa mecánicas (reglas programadas), dinámicas (comportamiento en ejecución) y estéticas (respuestas emocionales del jugador).",
+          "fuente": "Hunicke, LeBlanc y Zubek (2004)"
+        },
+        {
+          "termino": "SUS (System Usability Scale)",
+          "definicion": "Cuestionario estandarizado de diez ítems que produce un puntaje de usabilidad percibida entre 0 y 100.",
+          "fuente": "Brooke (1996)"
+        }
+      ]
+    },
+    "referencias": {
+      "rows": [
+        {
+          "ref": "Araújo, N. (2019). La gamificación aplicada al sector turístico: análisis sistemático sobre la base de datos Scopus. International Journal of Marketing, Communication and New Media, 7(June), 5–23.",
+          "uso": "Antecedente de gamificación aplicada a un sector no lúdico"
+        },
+        {
+          "ref": "Forte, M. et al. (2012). The Fort Ross Virtual Warehouse Project: a serious game for research and education.",
+          "uso": "Referente de narrativa inmersiva en entornos reconstruidos"
+        },
+        {
+          "ref": "Torres Leiva, J. (2019). CirQuizz: desarrollo de un videojuego para el aprendizaje de análisis de circuitos usando Unity.",
+          "uso": "Antecedente directo de videojuego educativo en ingeniería electrónica"
+        },
+        {
+          "ref": "Xu, F., Buhalis, D., & Weber, J. (2017). Serious games and the gamification of tourism. Tourism Management, 60, 244–256.",
+          "uso": "Evidencia del efecto de la gamificación sobre la satisfacción y la apropiación"
+        },
+        {
+          "ref": "Kolb, D. (2015). Experiential learning: experience as the source of learning and development (2.ª ed.). Pearson.",
+          "uso": "Sustento pedagógico del aprendizaje experiencial"
+        },
+        {
+          "ref": "Hadnagy, C. (2018). Social Engineering: The Science of Human Hacking (2.ª ed.). Wiley.",
+          "uso": "Sustento sobre ingeniería social y phishing"
+        }
+      ]
+    },
+    "puzzles_educativos": {
+      "rows": [
+        {
+          "id": "PZ-01",
+          "nombre": "Detectar página falsa",
+          "formato": "Canvas 2D",
+          "descripcion": "Inspeccionar una página de inicio de sesión aparentemente legítima y seleccionar señales sospechosas como dominio imitado, solicitud injustificada de datos, urgencia y enlaces dudosos. Byte explica cada señal correcta.",
+          "dificultad": "Aumenta incluyendo elementos visualmente legítimos que no deben marcarse."
+        },
+        {
+          "id": "PZ-02",
+          "nombre": "Reconocer mensajes maliciosos",
+          "formato": "Canvas 2D",
+          "descripcion": "Clasificar mensajes de familiares, compañeros, supuestos funcionarios y entidades en Seguro, Sospechoso o Verificar.",
+          "dificultad": "Los engaños se vuelven más elaborados y la puntuación prioriza precisión con bonificación por rapidez."
+        },
+        {
+          "id": "PZ-03",
+          "nombre": "Bloquear cuentas de acoso",
+          "formato": "Canvas 2D",
+          "descripcion": "Examinar perfiles y decidir aceptar, rechazar o bloquear según evidencias de suplantación, intimidación, insistencia, enlaces sospechosos o contradicciones.",
+          "dificultad": "Incluye cuentas legítimas poco conocidas y perfiles imitadores para evitar decisiones basadas en popularidad o apariencia."
+        },
+        {
+          "id": "PZ-04",
+          "nombre": "Denunciar ciberacoso",
+          "formato": "Canvas 2D",
+          "descripcion": "Investigar publicaciones y conversaciones, identificar el incidente, seleccionar evidencias pertinentes y completar un formulario de denuncia.",
+          "dificultad": "Distinguir desacuerdos normales de amenazas, humillación, difusión de información privada, suplantación o ataques reiterados."
+        }
+      ]
+    },
+    "preguntas_base_rescate": {
+      "uso": "Preguntas que aparecen al interactuar con NPC desconectados; una respuesta adecuada ayuda a liberarlos y otorga puntos de conocimiento. Las preguntas refuerzan ciberseguridad y ciberacoso sin sustituir los puzzles.",
+      "rows": [
+        {
+          "id": "Q-01",
+          "tema": "Phishing",
+          "pregunta": "Recibes por WhatsApp un mensaje que parece ser de la universidad y te pide iniciar sesión urgentemente desde un enlace para evitar que cancelen tu matrícula. ¿Qué deberías hacer?",
+          "opciones": [
+            "Abrir el enlace e iniciar sesión rápidamente.",
+            "Reenviarlo a otros estudiantes para preguntar si funciona.",
+            "Verificar la información entrando directamente al portal oficial de la universidad.",
+            "Responder al mensaje enviando tus datos para confirmar tu identidad."
+          ],
+          "correcta": 3,
+          "retroalimentacion": "Los enlaces recibidos por canales no oficiales pueden utilizarse para phishing. Es más seguro acceder directamente al sitio institucional y verificar allí la información."
+        },
+        {
+          "id": "Q-02",
+          "tema": "Ciberacoso",
+          "pregunta": "Un compañero publica repetidamente mensajes ofensivos y montajes sobre ti en un grupo de estudiantes. ¿Cuál es la respuesta más segura?",
+          "opciones": [
+            "Responder con insultos para defenderte.",
+            "Guardar evidencias, bloquear al agresor y reportar la situación por los canales correspondientes.",
+            "Compartir información privada del agresor como venganza.",
+            "Crear otra cuenta para acosarlo de forma anónima."
+          ],
+          "correcta": 2,
+          "retroalimentacion": "Conservar evidencias, bloquear y reportar permite actuar frente al ciberacoso sin aumentar el conflicto."
+        },
+        {
+          "id": "Q-03",
+          "tema": "Contraseñas",
+          "pregunta": "Usas la misma contraseña sencilla para tu correo, redes sociales y plataforma universitaria. ¿Cuál es el principal riesgo?",
+          "opciones": [
+            "Que las aplicaciones funcionen más lentamente.",
+            "Que, si alguien obtiene una contraseña, pueda intentar acceder también a tus otras cuentas.",
+            "Que tengas que cambiar de computador.",
+            "Que tus archivos ocupen más almacenamiento."
+          ],
+          "correcta": 2,
+          "retroalimentacion": "Reutilizar contraseñas permite que una credencial comprometida sea probada contra múltiples servicios."
+        },
+        {
+          "id": "Q-04",
+          "tema": "Ciberacoso",
+          "pregunta": "Una cuenta desconocida amenaza con publicar fotografías privadas tuyas si no haces lo que te pide. ¿Qué deberías hacer primero?",
+          "opciones": [
+            "Cumplir inmediatamente con todas sus exigencias.",
+            "Borrar todos los mensajes para que nadie los encuentre.",
+            "Conservar las pruebas, evitar continuar la confrontación y buscar apoyo o reportar la cuenta.",
+            "Amenazar a la persona con publicar información sobre ella."
+          ],
+          "correcta": 3,
+          "retroalimentacion": "Las amenazas y el hostigamiento digital deben documentarse y reportarse; responder con más acoso puede escalar la situación."
+        }
+      ]
+    },
+    "historial_actualizacion": {
+      "version_documento": "2",
+      "fecha": "2026-11-03",
+      "fuentes_integradas": [
+        "GDD - Zero Day(1).pdf",
+        "Copia de Preguntas_Guia_Diseno_Videojuegos_INGELECT.docx (1).pdf",
+        "GDD_Ciberguardianes (1).json como primera versión"
+      ],
+      "nota": "Se conservaron los apartados útiles de público, requisitos técnicos, accesibilidad, pruebas y documentación de la primera versión, pero se actualizaron los elementos que contradecían el diseño actual de acción-aventura 3D."
+    }
+  }
+}
